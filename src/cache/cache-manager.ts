@@ -159,6 +159,8 @@ export class CacheManager {
     } else if (this.cache.allKeys) {
       return this.cache.allKeys();
     }
+
+    return;
   }
 
   /**
